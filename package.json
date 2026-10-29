@@ -1,0 +1,17 @@
+{
+  "name": "prometheus-deobfuscator-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord slash-command wrapper for the bundled Prometheus Lua deobfuscator",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "register": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0"
+  }
+}

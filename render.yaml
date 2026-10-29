@@ -1,0 +1,14 @@
+services:
+  - type: worker
+    name: prometheus-deobfuscator-discord-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
+      - key: DISCORD_CLIENT_ID
+        sync: false
+      - key: DISCORD_GUILD_ID
+        sync: false
+cat bot.js
